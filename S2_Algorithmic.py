@@ -13,12 +13,11 @@ def bubble_sort(list):
     return print(list)
 
 # bubble_sort([2,8,9,5,7])      
-
 # bubble_sort([2,3,4,5,6])  
 # Big(o) o(n^2)
 
 # inserion sort 
-def insertionSort(arr):
+def insertion_sort(arr):
     n = len(arr)
     for i in range(1, n):
         key = arr[i]
@@ -29,5 +28,14 @@ def insertionSort(arr):
             arr[j + 1] = key
     return arr
             
-            
-print(insertionSort([2,8,9,5,7]))
+print(insertion_sort([2,8,9,5,7]))
+# Big(o) o(n^2)  best case o(n)        
+
+#          -> merge o(nlog(n))
+# tim sort (use) 
+#          ->insertion o(n^2) but best is o(n)
+
+# greedy hearistics
+# knapsack
+# optimal
+# brete force => f(n) =< o(2^n) 

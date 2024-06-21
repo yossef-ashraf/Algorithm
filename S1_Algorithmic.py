@@ -62,6 +62,12 @@ def binary(L, x):
 # n+(n*log2(n^2)) 
 # big o here is o(n^2) 
 
+# Storing data in algroithm
+# c in rigster
+# 3 c in cache
+# 100 - 1000 c in ram 
+# 10^6 c < in hard 
+
 ####################################################################################################################################################
 
 # Sorting Algroithm

@@ -89,3 +89,101 @@ def bubbleSort(arr):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Big-o Cheat Sheet
+
+Big-o       Name        Description        Example
+
+0(1)      Constant Time    Checking if a stack is empty     Execution time remains unchanged irrespective of input data
+
+0(log n)    Logarithmic Time    Complexity increases by one unit for each doubling of input data    Finding an item in a balanced search tree
+
+O(n)
+
+Linear
+Time
+
+Execution time increases
+linearly with the size of the
+input data
+
+Linear traversal
+of a list
+
+O(n log n)
+
+Log-Linear
+Time
+
+Complexity grows as a
+combination of linear and
+logarithmic
+
+Merge sort on
+a collection of
+items
+
+O(n^2)
+
+auadratic
+Time
+
+Time taken is proportional to
+the square ofthe number of
+elements
+
+Checking all
+possible pairs in
+an array
+
+O(n^3)
+
+Cubic Time
+
+Execution time is proportional
+to the cube ofthe number of
+elements
+
+Matrix
+multiplication of
+n x n matrices
+
+O(2^n)
+
+Exponential
+Time
+
+Time doubles for every new
+element added
+
+Generating all
+subsets of a
+given set
+
+O(n!)
+
+Factorial
+Time
+
+Complexity grows factorially
+based on the size ofthe
+dataset
+
+Determining all
+permutations of
+a given list

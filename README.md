@@ -7,7 +7,6 @@ This repository contains a collection of different algorithms used in computer s
 This project includes a wide range of algorithms, including:
 
 - **Search algorithms**
- )
 
 - **Sorting algorithms**
 

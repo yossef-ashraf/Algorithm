@@ -1,13 +1,12 @@
 # typy of algorithem
-#1- linear
+# linear
 def linear(L, x):
     for e in L:
         if e == x:
             return True
     return False
-# linear([5, 'g'], 5)
-# ---------------------
-#2- binary
+
+# binary
 def binary(L, x):
     if len(L) == 0:
         return False
@@ -20,7 +19,7 @@ def binary(L, x):
         else:
             return binary(L[mid+1:], x)
 
-# Sorting Algroithm
+# Bubble Sorting Algroithm
 def bubbleSort(arr):
     n = len(arr)
     # Traverse through all array elements
@@ -37,6 +36,21 @@ def bubbleSort(arr):
                 # So, overall time complexity of this function is O(n * n).
                 print("Bubble Sort Function")
 
+# Selection Sort Algroithm
+def selectionSort(array):
+    n = len(array)
+    
+    for i in range(n - 1):
+        min_index = i
+        
+        for j in range(i + 1, n):
+            if array[j] < array[min_index]:
+                min_index = j
+
+        if min_index != i:
+            array[i], array[min_index] = array[min_index], array[i]
+    
+    return array
 
 
 

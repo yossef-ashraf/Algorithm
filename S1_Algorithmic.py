@@ -63,7 +63,7 @@ def selectionSort(array):
 # - RAM: 100-1000 values
 # - Hard Disk: 10⁶ values
 
-# Big-O is a member of a family of notations invented by Paul Bachmann, Edmund Landau (a German mathematician), 
+# Big-Oh is a member of a family of notations invented by Paul Bachmann, Edmund Landau (a German mathematician), 
 # and others, collectively called Bachmann–Landau notation or asymptotic notation.
 # "On the basis of the issues discussed here, I propose that members of SIGACT, 
 # and editors of computer science and mathematics journals, adopt the O and Ω notations as defined above, unless a better alternative can be found reasonably soon."
@@ -80,6 +80,13 @@ def selectionSort(array):
 
 # for(i = 3; i <= n; i *= 2)
 # - Big O: O(log₂(n))
+
+#### Logarithmic Form
+# - ( 2^3 = 8 )  ( log₂(8) = 3 )
+# - ( 3^4 = 81 ) ( log₃(81) = 4 )
+##### Exponential Form
+# - ( y = log₂(x) )
+
 
 # ####  3
 

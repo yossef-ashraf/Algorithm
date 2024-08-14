@@ -63,6 +63,11 @@ def selectionSort(array):
 # - RAM: 100-1000 values
 # - Hard Disk: 10⁶ values
 
+# Big-O is a member of a family of notations invented by Paul Bachmann, Edmund Landau (a German mathematician), 
+# and others, collectively called Bachmann–Landau notation or asymptotic notation.
+# "On the basis of the issues discussed here, I propose that members of SIGACT, 
+# and editors of computer science and mathematics journals, adopt the O and Ω notations as defined above, unless a better alternative can be found reasonably soon."
+# - D. E. Knuth, "Big Omicron and Big Omega and Big Theta," SIGACT News, 1976. Reprinted in "Selected Papers on Analysis of Algorithms."
 
 ### Examples of Big O Calculations
 
